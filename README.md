@@ -324,6 +324,7 @@ function ExtractLink(html) {
 ## 9、表格语法
 + 功能演示
 
+![](https://github.com/hxsfx/MarkdownEditor/blob/main/doc/img/09%20表格语法.gif)
 + 代码分享
 ```JavaScript
 var table_tag_pattern = /^[ ]{0,3}((\|[ ]*?(?:[:]{0,1}- *){3,}[:]{0,1}[ ]*)+\|){1,}[ | ]{0,}$/;//表格出现的标识
@@ -400,6 +401,7 @@ function ExtractTable(analysisResult, prevAnalysisResult) {
 ## 10、其他功能
 + 功能演示
 
+![](https://github.com/hxsfx/MarkdownEditor/blob/main/doc/img/10%20其他功能.gif)
 + 代码分享
 ```JavaScript
 //通过使用localStorage实现本地缓存
