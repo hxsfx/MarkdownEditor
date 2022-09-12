@@ -219,6 +219,7 @@ function CreateListInfo(analysisResult, isExtractTable) {
 ## 5、代码块语法
 + 功能演示
 
+![](https://github.com/hxsfx/MarkdownEditor/blob/main/doc/img/05%20代码块语法.gif)
 + 代码分享
 ```JavaScript
 var isCodeBlock = false;
@@ -260,6 +261,7 @@ if (prevAnalysisResult.IsCodeBlock) {
 ## 6、分隔线语法
 + 功能演示
 
+![](https://github.com/hxsfx/MarkdownEditor/blob/main/doc/img/06%20分隔线语法.gif)
 + 代码分享
 ```JavaScript
 var separator_pattern = /^ {0,3}((?:- *){3,}|(?:_ *){3,}|(?:\* *){3,})(?:\n+|$)/;//分隔线正则表达式
@@ -270,6 +272,7 @@ if (separator_pattern.test(textContent)) {
 ## 7、链接语法
 + 功能演示
 
+![](https://github.com/hxsfx/MarkdownEditor/blob/main/doc/img/07%20链接语法.gif)
 + 代码分享
 ```JavaScript
 var def_pattern = /^ {0,3}\[(label)\]: *\n? *<?([^\s>]+)>?(?:(?: +\n? *| *\n *)(title))? *(?:\n+|$)/;
@@ -315,6 +318,7 @@ function ExtractLink(html) {
 ## 8、图片语法
 + 功能演示
 
+![](https://github.com/hxsfx/MarkdownEditor/blob/main/doc/img/08%20图片语法.gif)
 + 代码分享
 **参考第7点的链接语法**
 ## 9、表格语法
