@@ -10,6 +10,7 @@
 各位小伙伴可以访问在线演示地址：[https://md.hxsfx.com/](https://md.hxsfx.com/)
 ## 1、标题语法
 + 功能演示
+
 ![](https://github.com/hxsfx/MarkdownEditor/blob/main/doc/img/01%20标题语法.gif)
 + 代码分享
 ```JavaScript
@@ -36,6 +37,7 @@ else if (textContent.startsWith(h1_start)) {
 ```
 ## 2、强调语法
 + 功能演示
+
 ![](https://github.com/hxsfx/MarkdownEditor/blob/main/doc/img/02%20强调语法.gif)
 + 代码分享
 ```JavaScript
@@ -85,6 +87,7 @@ function CreatePreviewSectionHTML(tagName, innerHTML) {
 ## 3、引用语法
 + 功能演示
 
+![](https://github.com/hxsfx/MarkdownEditor/blob/main/doc/img/03%20引用语法.gif)
 + 代码分享
 ```JavaScript
 var blockquote_start = "&gt;";
@@ -97,6 +100,7 @@ if (textContent.startsWith(blockquote_start)) {
 ## 4、列表语法
 + 功能演示
 
+![](https://github.com/hxsfx/MarkdownEditor/blob/main/doc/img/04%20列表语法.gif)
 + 代码分享
 ```JavaScript
 var olli_pattern = /^ {0,3}[1-9]*\. /; //有序列表正则表达式
