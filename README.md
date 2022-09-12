@@ -3,14 +3,13 @@
 现在要实现这一功能，开发一个完全可控的Markdown编辑器就是第一步。
 **本文源码已上传Github：[Github hxsfx MarkdownEditor](https://github.com/hxsfx/MarkdownEditor)**
 # 界面草图
-
+![](https://github.com/hxsfx/MarkdownEditor/blob/main/doc/img/草图.gif)
 # 技术选型
 考虑到编辑器解析渲染放在前端更合适，采用了HTML+JS+CSS实现Markdown编辑器模块。
 # 功能演示及代码分享
 各位小伙伴可以访问在线演示地址：[https://md.hxsfx.com/](https://md.hxsfx.com/)
 ## 1、标题语法
 + 功能演示
-
 + 代码分享
 ```JavaScript
 var h4_start = "#### ";
