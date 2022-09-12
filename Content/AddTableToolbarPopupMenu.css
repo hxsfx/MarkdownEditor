@@ -1,0 +1,27 @@
+﻿#AddTableToolbarPopupMenu > div.popupMenuBody > input {
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+}
+
+#AddTableToolbarPopupMenu > div.popupMenuBody > Button.alignmentBtn > span.icon {
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    border: 1px solid #bbb;
+    border-radius: 100%;
+}
+
+#AddTableToolbarPopupMenu > div.popupMenuBody > Button.alignmentBtn.selected > span.icon {
+    background-color: #1a75e8;
+    border-color: #1a75e8;
+}
+
+#AddTableToolbarPopupMenu > div.popupMenuBody > Button.alignmentBtn:hover > span.icon {
+    border-color: #1a75e8;
+}
+
+#AddTableToolbarPopupMenu > div.popupMenuBody > label {
+    height: 40px;
+    line-height: 40px;
+}

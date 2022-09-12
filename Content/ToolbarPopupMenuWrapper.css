@@ -1,0 +1,76 @@
+﻿#PopupCover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:gray;
+    opacity:0.4;
+}
+
+#ToolbarPopupMenuWrapper {
+    display: block;
+    position: absolute;
+    top: 200px;
+    left: 433px;
+}
+
+    #ToolbarPopupMenuWrapper > div.toolbarPopupMenu {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        box-shadow: 0 1px 4px 1px #ebebeb;
+        border-radius: 5px;
+    }
+
+        #ToolbarPopupMenuWrapper > div.toolbarPopupMenu > div.popupMenuHead {
+            height: 60px;
+            box-sizing: border-box;
+            border-bottom: 1px solid #f3f3f3;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+            #ToolbarPopupMenuWrapper > div.toolbarPopupMenu > div.popupMenuHead > b.title {
+                margin-left: 10px;
+                display: inline-block;
+                cursor: default;
+            }
+
+            #ToolbarPopupMenuWrapper > div.toolbarPopupMenu > div.popupMenuHead > button.close {
+                margin-right: 10px;
+                border: 0;
+                background-color: transparent;
+            }
+
+
+                #ToolbarPopupMenuWrapper > div.toolbarPopupMenu > div.popupMenuHead > button.close:hover {
+                    opacity: 0.8;
+                }
+
+        #ToolbarPopupMenuWrapper > div.toolbarPopupMenu > div.popupMenuBody {
+            padding: 10px 20px;
+        }
+
+        #ToolbarPopupMenuWrapper > div.toolbarPopupMenu > div.popupMenuFoot {
+            display: flex;
+            justify-content: center;
+        }
+
+            #ToolbarPopupMenuWrapper > div.toolbarPopupMenu > div.popupMenuFoot > button {
+                margin: 10px;
+                padding: 10px 20px;
+                border-radius: 5px;
+            }
+
+                #ToolbarPopupMenuWrapper > div.toolbarPopupMenu > div.popupMenuFoot > button:hover {
+                    opacity: 0.8;
+                }
+
+                #ToolbarPopupMenuWrapper > div.toolbarPopupMenu > div.popupMenuFoot > button.cancel {
+                    background-color: #f0f3f5;
+                }
+
+                #ToolbarPopupMenuWrapper > div.toolbarPopupMenu > div.popupMenuFoot > button:last-child {
+                    color: #fefefe;
+                    background: #1a75e8;
+                }

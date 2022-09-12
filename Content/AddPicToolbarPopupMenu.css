@@ -1,0 +1,41 @@
+﻿#AddPicToolbarPopupMenu > div.popupMenuBody {
+}
+
+
+    #AddPicToolbarPopupMenu > div.popupMenuBody > button:hover {
+        opacity: 0.8;
+    }
+
+#AddPicToolbarPopupMenu > div.popupMenuFoot > p {
+    padding: 5px;
+    font-size: 10px;
+}
+
+#AddPicToolbarPopupMenu > div.popupMenuBody > p {
+    display: block;
+    height: 30px;
+    min-height: 30px;
+    width: 100%;
+    overflow: hidden;
+}
+#AddPicToolbarPopupMenu > div.popupMenuBody > div {
+    display: flex;
+    justify-content: center;
+}
+#AddPicToolbarPopupMenu > div.popupMenuBody > div > button {
+    position: relative;
+    background: #1a75e8;
+    border-radius: 5px;
+    padding: 10px 20px;
+    overflow: hidden;
+    color: #fefefe;
+    height: 40px;
+    line-height: 20px;
+}
+#AddPicToolbarPopupMenu > div.popupMenuBody > div > button > input {
+    position: absolute;
+    font-size: 2em;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}

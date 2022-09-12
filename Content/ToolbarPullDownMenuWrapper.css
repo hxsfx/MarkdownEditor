@@ -1,0 +1,46 @@
+﻿#ToolbarPullDownMenuWrapper {
+    display: block;
+    position: absolute;
+    top: 121px;
+    left: 433px;
+}
+
+    #ToolbarPullDownMenuWrapper > div.toolbarPullDownMenu {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        box-shadow: 0 1px 4px 1px #ebebeb;
+        border-radius: 5px;
+    }
+
+        #ToolbarPullDownMenuWrapper > div.toolbarPullDownMenu > div.menuItem {
+            display: flex;
+            padding: 10px 20px;
+        }
+
+            #ToolbarPullDownMenuWrapper > div.toolbarPullDownMenu > div.menuItem:hover {
+                background-color: #f4f4f4;
+                cursor: pointer;
+            }
+
+            #ToolbarPullDownMenuWrapper > div.toolbarPullDownMenu > div.menuItem.disable {
+                cursor: default;
+                color: #9f9f9f;
+            }
+
+                #ToolbarPullDownMenuWrapper > div.toolbarPullDownMenu > div.menuItem.disable:hover {
+                    background-color: transparent;
+                }
+
+
+            #ToolbarPullDownMenuWrapper > div.toolbarPullDownMenu > div.menuItem > span.icon {
+                height: 24px;
+                width: 24px;
+            }
+
+            #ToolbarPullDownMenuWrapper > div.toolbarPullDownMenu > div.menuItem > span.text {
+                margin-left: 4px;
+                font-size: 14px;
+                line-height: 24px;
+                height: 24px;
+            }

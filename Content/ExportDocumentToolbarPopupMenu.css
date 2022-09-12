@@ -1,0 +1,25 @@
+﻿#ExportDocumentToolbarPopupMenu > div.popupMenuBody {
+    display: flex;
+    justify-content: center;
+}
+
+
+    #ExportDocumentToolbarPopupMenu > div.popupMenuBody > button:hover {
+        opacity: 0.8;
+    }
+
+#ExportDocumentToolbarPopupMenu > div.popupMenuFoot > p {
+    padding: 5px;
+    font-size: 10px;
+}
+
+#ExportDocumentToolbarPopupMenu > div.popupMenuBody > button {
+    margin: 0 10px;
+    background: #1a75e8;
+    border-radius: 5px;
+    padding: 10px 20px;
+    overflow: hidden;
+    color: #fefefe;
+    height: 40px;
+    line-height: 20px;
+}
