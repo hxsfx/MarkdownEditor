@@ -10,7 +10,7 @@
 各位小伙伴可以访问在线演示地址：[https://md.hxsfx.com/](https://md.hxsfx.com/)
 ## 1、标题语法
 + 功能演示
-![](https://github.com/hxsfx/MarkdownEditor/blob/main/doc/img/01 标题语法.gif)
+![](https://github.com/hxsfx/MarkdownEditor/blob/main/doc/img/01%20标题语法.gif)
 + 代码分享
 ```JavaScript
 var h4_start = "#### ";
