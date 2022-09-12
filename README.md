@@ -36,7 +36,7 @@ else if (textContent.startsWith(h1_start)) {
 ```
 ## 2、强调语法
 + 功能演示
-
+![](https://github.com/hxsfx/MarkdownEditor/blob/main/doc/img/02%20强调语法.gif)
 + 代码分享
 ```JavaScript
 //提取强调语法
